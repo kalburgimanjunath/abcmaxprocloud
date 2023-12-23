@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React from "react";
 export default function Blubs() {
   const blubs = [
     { title: "Dashboard", link: "/" },

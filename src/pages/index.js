@@ -1,2 +1,3 @@
 import Dashboard from "./dashboard";
-export { Dashboard };
+import Viewer from "./viewer";
+export { Dashboard, Viewer };

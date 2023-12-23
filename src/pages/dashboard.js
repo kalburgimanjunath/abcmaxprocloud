@@ -1,4 +1,5 @@
 import { Blubs } from "../components/";
+import React from "react";
 const Widgets = ({ title }) => {
   return (
     <div>
