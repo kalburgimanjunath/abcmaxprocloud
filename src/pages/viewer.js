@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { TreeView } from "../components";
 const Filters = ({ updateViews }) => {
   return (
     <div className="text-3xl font-bold underline">
@@ -45,7 +46,10 @@ export default function Viewer() {
   return (
     <div>
       <Filters views={viewState} updateViews={updateViews} />
-      <Views views={viewState} />
+      <div>
+        <Views views={viewState} />
+        <TreeView />
+      </div>
     </div>
   );
 }
